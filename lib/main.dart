@@ -3,11 +3,12 @@ import 'package:fweb/reponsive/desktop_scaffold.dart';
 import 'package:fweb/reponsive/mobile_scaffold.dart';
 import 'package:fweb/reponsive/responsive_layout.dart';
 import 'package:fweb/reponsive/tablet_scaffold.dart';
+import 'package:fweb/sbar.dart';
 
 void main() {
-  runApp(const MaterialApp(
+  runApp(MaterialApp(
     debugShowCheckedModeBanner: false,
-    home: MyApp(),
+    home: SidebarXExampleApp(),
   ));
 }
 

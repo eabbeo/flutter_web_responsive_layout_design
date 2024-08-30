@@ -50,19 +50,6 @@ class _DesktopScaffoldState extends State<DesktopScaffold> {
                 ],
               ),
             ),
-            Expanded(
-                flex: 1,
-                child: Column(
-                  children: [
-                    Expanded(
-                      child: Container(
-                        //  width: 200,
-                        height: MediaQuery.of(context).size.height,
-                        color: Colors.pink,
-                      ),
-                    )
-                  ],
-                )),
           ],
           //open drawer
         ),
